@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simplified design to ensure clarity and fit in safe zone [21,21] to [87,87] -->
+
+    <!-- Secondary Photo (behind) -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M30,35 h40 v40 h-40 z" />
+
+    <!-- Main Photo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,27 h40 v40 h-40 z" />
+
+    <!-- Photo Content -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M42,31 h32 v24 h-32 z" />
+
+    <!-- Mountain/Landscape in Photo -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M42,55 l8,-8 l6,6 l10,-10 l8,12 v0 z" />
+
+    <!-- Sparkles (AI Cleaning) -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M75,35 l2,4 l4,2 l-4,2 l-2,4 l-2,-4 l-4,-2 l4,-2 z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M80,50 l1,2 l2,1 l-2,1 l-1,2 l-1,-2 l-2,-1 l2,-1 z" />
+
+    <!-- Magic Wand handle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,80 l4,-4 l45,-45 l4,4 l-45,45 z" />
+</vector>
